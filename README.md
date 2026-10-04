@@ -54,5 +54,7 @@ In fully associative mapping, a memory block can be placed in any available cach
 
 ```bash
 python -m p## Live Application
+## Live Application
 
-[Open the Interactive Cache Memory Simulator](https://interactive-cache-memory-simulator-9aa9rvrnzgtac4vx6ikmxs.streamlit.app/)ip install -r requirements.txt
+[Open Interactive Cache Memory Simulator](https://interactive-cache-memory-simulator-9aa9rvrnzgtac4vx6ikmxs.streamlit.app/)
+
