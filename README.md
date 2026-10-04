@@ -1,39 +1,30 @@
-# Interactive-Cache-Memory-Simulator
-COA Project - Interactive Cache Memory Simulator
-# Interactive Cache Memory Simulator and Performance Analyzer
+# Interactive Cache Memory Simulator
 
-## Project Overview
-The Interactive Cache Memory Simulator is a software-based Computer Organization and Architecture (COA) project designed to demonstrate cache memory mapping techniques and evaluate cache performance through simulation.
+## Project Description
 
-## Objectives
-- Understand cache memory organization and mapping.
-- Simulate cache operations using different mapping techniques.
-- Analyze cache hits, misses, and performance metrics.
-- Provide an interactive learning platform for engineering students.
+The Interactive Cache Memory Simulator is a software-based educational tool that demonstrates how cache memory works in a computer system.
+
+It allows users to enter memory addresses, select different cache mapping techniques, and observe cache hits, cache misses, and the final cache contents.
 
 ## Features
+
+- Interactive cache memory simulation
 - Direct Mapping
-- Fully Associative Mapping
 - Set Associative Mapping
-- Cache Hit and Miss Analysis
-- Performance Evaluation Dashboard
-- Interactive User Interface
+- Fully Associative Mapping
+- Cache hit and miss calculation
+- Hit ratio and miss ratio
+- Final cache contents display
+- Simple and user-friendly interface
 
 ## Technologies Used
+
 - Python
 - Streamlit
-- GitHub
 
-## Applications
-- COA Laboratory Learning
-- Engineering Education
-- Performance Analysis and Visualization
+## How to Run the Project
 
-## Future Enhancements
-- Cache Replacement Algorithms (LRU, FIFO)
-- Real-Time Performance Graphs
-- Multi-Level Cache Simulation
+### 1. Install the required packages
 
-## Project Team
-- AKSHIKA S
-- BHAVYA S
+```bash
+python -m pip install -r requirements.txt
