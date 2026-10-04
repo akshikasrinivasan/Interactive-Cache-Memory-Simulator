@@ -1,30 +1,56 @@
 # Interactive Cache Memory Simulator
 
-## Project Description
+## 1. Project Overview
 
-The Interactive Cache Memory Simulator is a software-based educational tool that demonstrates how cache memory works in a computer system.
+The Interactive Cache Memory Simulator is a software-based educational application developed to demonstrate the working of cache memory and different cache mapping techniques.
 
-It allows users to enter memory addresses, select different cache mapping techniques, and observe cache hits, cache misses, and the final cache contents.
+The simulator allows users to provide memory addresses, select a cache mapping technique, and observe cache hits, cache misses, hit ratio, miss ratio, and the final cache contents.
 
-## Features
+## 2. Objectives
 
-- Interactive cache memory simulation
+- Understand the basic working of cache memory.
+- Demonstrate different cache mapping techniques.
+- Simulate memory access sequences.
+- Calculate cache hits and cache misses.
+- Calculate hit ratio and miss ratio.
+- Provide an interactive and easy-to-use interface.
+
+## 3. Cache Mapping Techniques
+
+### Direct Mapping
+
+In direct mapping, each memory block is mapped to exactly one specific cache line.
+
+### Set Associative Mapping
+
+In set associative mapping, the cache is divided into sets. A memory block is mapped to a particular set and can occupy any available line within that set.
+
+### Fully Associative Mapping
+
+In fully associative mapping, a memory block can be placed in any available cache line.
+
+## 4. Features
+
+- Interactive user interface
+- Adjustable cache size
+- User-defined memory address sequence
 - Direct Mapping
 - Set Associative Mapping
 - Fully Associative Mapping
 - Cache hit and miss calculation
-- Hit ratio and miss ratio
-- Final cache contents display
-- Simple and user-friendly interface
+- Hit ratio calculation
+- Miss ratio calculation
+- Display of final cache contents
+- Web-based interface using Streamlit
 
-## Technologies Used
+## 5. Technologies Used
 
 - Python
 - Streamlit
 
-## How to Run the Project
+## 6. How to Run the Project
 
-### 1. Install the required packages
+### Install dependencies
 
 ```bash
 python -m pip install -r requirements.txt
