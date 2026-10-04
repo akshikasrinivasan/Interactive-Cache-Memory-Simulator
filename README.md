@@ -55,4 +55,5 @@ In fully associative mapping, a memory block can be placed in any available cach
 ```bash
 ## Live Application
 
-[Open Interactive Cache Memory Simulator](https://interactive-cache-memory-simulator-9aa9rvrnzgtac4vx6ikmxs.streamlit.app/)
+[Open Interactive Cache Memory Simulator]
+https://interactive-cache-memory-simulator-9aa9rvrnzgtac4vx6ikmxs.streamlit.app/
